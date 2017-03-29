@@ -37,8 +37,8 @@ location: 'city',
 studySpace: '100 PCs'
 ).save()
 
-def MrsLibrary = new Librarian(
-name: 'Mrs Library',
+def TeresaMay = new Librarian(
+name: 'Teresa May',
 email: 'lib.one@gmail.co.uk',
 office: 'The library',
 userName: 'library1',
@@ -47,8 +47,8 @@ telephone: '01142222222',
 library: Adsetts
 ).save()
 
-def MrLibrary = new Librarian(
-name: 'Mr Library',
+def DonaldTrump = new Librarian(
+name: 'DonaldTrump',
 email: 'lib.too@gmail.co.uk',
 office: 'The library office',
 userName: 'library2',
@@ -101,10 +101,6 @@ overdue: false,
 library: Adsetts
 ).save()
 
-
-
-
-
 def LittleBookOfCalm = new BookReview(
 book: ArtOfScreaming,
 dateMade: new Date('01/02/2017'),
@@ -118,6 +114,9 @@ dateMade: new Date('02/02/2017'),
 student: TracyBent,
 review: '''Its quite good'''
 ).save()
+
+
+
 
     }
     def destroy = {
