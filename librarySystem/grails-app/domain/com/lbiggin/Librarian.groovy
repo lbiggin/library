@@ -10,6 +10,11 @@ String password
 String telephone
 Library library
 
+String toString(){
+
+"$name, $library"
+
+}
 
 String nameSize(){
 

@@ -7,6 +7,11 @@ Date dateMade
 Student student
 String review
 
+String toString(){
+
+"$book"
+
+}
 
 String blankReview(){
 

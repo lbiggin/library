@@ -9,9 +9,6 @@ String department
 String description
 String studyMode
 
-static hasMany=[students:Student]
-
-
 String toString(){
 
 "$title, $leader, $department"

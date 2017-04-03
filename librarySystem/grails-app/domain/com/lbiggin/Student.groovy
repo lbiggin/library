@@ -12,6 +12,11 @@ Library library
 
 static hasMany=[books:Book, bookreviews:BookReview]
 
+String toString(){
+
+"$name, $course"
+
+}
 
 String emailFormat(){
 

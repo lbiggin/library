@@ -14,6 +14,11 @@ Library library
 
 static hasMany=[bookreviews:BookReview]
 
+String toString(){
+
+"$title"
+
+}
 
 Date dateType(){
 
