@@ -3,7 +3,8 @@ package com.lbiggin
 class BootStrap {
 
     def init = { servletContext ->
-def Systems = new Course(
+
+/*def Systems = new Course(
 title: 'Systems',
 code: 'SYS345',
 leader: 'Tonderai',
@@ -113,10 +114,7 @@ book: Tanks,
 dateMade: new Date('02/02/2017'),
 student: TracyBent,
 review: '''Its quite good'''
-).save()
-
-
-
+).save()*/
 
     }
     def destroy = {
