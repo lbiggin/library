@@ -10,11 +10,7 @@ String studySpace
 
 static hasMany=[books:Book, libraries:Librarian, students:Student]
 
-String toString(){
 
-"$buildingName"
-
-}
 
     static constraints = {
 

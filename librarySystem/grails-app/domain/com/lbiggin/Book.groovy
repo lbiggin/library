@@ -14,12 +14,14 @@ Library library
 
 static hasMany=[bookreviews:BookReview]
 
+/* Text representation on app */
 String toString(){
 
 "$title"
 
 }
 
+/* unit test */
 Date dateType(){
 
 dateBorrowed

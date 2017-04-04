@@ -9,6 +9,9 @@ String department
 String description
 String studyMode
 
+static hasMany=[students:Student]
+
+/* unit test and text representation on app */
 String toString(){
 
 "$title, $leader, $department"

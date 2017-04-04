@@ -12,12 +12,14 @@ Library library
 
 static hasMany=[books:Book, bookreviews:BookReview]
 
+/* Text representation on app */
 String toString(){
 
 "$name, $course"
 
 }
 
+/* unit test */
 String emailFormat(){
 
 "$email"

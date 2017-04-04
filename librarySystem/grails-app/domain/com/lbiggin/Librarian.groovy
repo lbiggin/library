@@ -10,12 +10,14 @@ String password
 String telephone
 Library library
 
+/* Text representation on app */
 String toString(){
 
 "$name, $library"
 
 }
 
+/* unit test */
 String nameSize(){
 
 "$name"

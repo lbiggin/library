@@ -7,18 +7,12 @@ Date dateMade
 Student student
 String review
 
+/* Text representation on app */
 String toString(){
 
 "$book"
 
 }
-
-String blankReview(){
-
-"$review"
-
-}
-
 
     static constraints = {
 
