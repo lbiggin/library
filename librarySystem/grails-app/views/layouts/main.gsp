@@ -18,6 +18,7 @@
 	<asset:image src="libraryBanner.jpg"/>
 
 	<g:loginToggle />
+	
 
     </div>
     

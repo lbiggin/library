@@ -10,10 +10,10 @@
 
 <body>
 	<div class="row">
-	<h1>Student Search Facility</h1>	
+	<h1>Advanced Search Facility</h1>	
 
 	<formset>
-	<legend>Advanced Search for Students</legend>
+	<legend>Search for Student Details</legend>
 	<table>
 	<g:form action="advResults">	
 	<tr>

@@ -17,11 +17,17 @@
 
 		<h3>Books</h3>
 
-	<p>This section allows you to search through all the books recorded in the system</p>
+	<p>This section allows you to add a new book and list all of the book reviews currently stored in the system</p>
 
 		<button type="button" class="btn btn-success">
 	
-			<g:link controller="book" action="create">Books</g:link>
+			<g:link controller="book" action="create">Add New Books</g:link>
+
+		</button>
+
+		<button type="button" class="btn btn-success">
+	
+			<g:link controller="book" action="index">List All Books</g:link>
 
 		</button>
 
@@ -36,11 +42,17 @@
 
 		<h3>Courses</h3>
 
-	<p>This section allows you to search through all the courses recorded in the system</p>
+	<p>This section allows you to add a new course and list all of the courses currently stored in the system</p>
 
 		<button type="button" class="btn btn-success">
 	
-			<g:link controller="course" action="create">Courses</g:link>
+			<g:link controller="course" action="create">Add New Courses</g:link>
+
+		</button>
+
+		<button type="button" class="btn btn-success">
+	
+			<g:link controller="course" action="index">List All Courses</g:link>
 
 		</button>
 
@@ -52,11 +64,17 @@
 
 		<h3>Librarians</h3>
 
-	<p>This section allows you to search through all the librarians recorded in the system</p>
+	<p>This section allows you to add a new librarian and list details of all of the librarians currently stored in the system</p>
 
 		<button type="button" class="btn btn-success">
 	
-			<g:link controller="librarian" action="create">Librarians</g:link>
+			<g:link controller="librarian" action="create">Add New Librarian</g:link>
+
+		</button>
+
+		<button type="button" class="btn btn-success">
+	
+			<g:link controller="librarian" action="index">List All Librarians</g:link>
 
 		</button>
 
@@ -70,20 +88,21 @@
 
 		<h3>Students</h3>
 
-		<p>This section allows you to search through all the students recorded in the system</p>
+		<p>This section allows you to add a new student and list all of the students currently stored in the system</p>
 
 		<button type="button" class="btn btn-success">
 	
-			<g:link controller="student" action="create">Students</g:link>
+			<g:link controller="student" action="create">Add New Student</g:link>
+
+		</button>
+
+		<button type="button" class="btn btn-success">
+	
+			<g:link controller="student" action="index">List All Students</g:link>
 
 		</button>
 
 	</div>
-
-
-
-
-
 
 
 

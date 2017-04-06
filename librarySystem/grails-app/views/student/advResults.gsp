@@ -10,11 +10,11 @@
 
 <body>
 	<div class="row">
-	<h1>Student Advanced Search Facility</h1>
+	<h1>Advanced Search Facility</h1>
 	<h3>Search Results</h3>
 
-	<p>Searched
-	for students matching <em>${term}</em>.
+	<p>
+	Searched for students matching <em>${term}</em>.
 	Found <strong>${students.size()}</strong> students.
 	</p>
 	
